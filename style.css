@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider {
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+
+}
+.btn{
+position: absolute;
+top:0;
+left:0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.btn button{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    color: #110303;
+    background-color: rgb(55, 0, 255);
+    border: solid rgb(196, 17, 17) 1px;
+}
+   
+.btn button:hover i{
+    color: rgb(0, 26, 255);
+}
